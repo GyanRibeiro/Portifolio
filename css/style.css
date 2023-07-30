@@ -11,10 +11,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-
-}
-
 header {
     position: fixed;
     top: 0;
@@ -43,11 +39,13 @@ header nav li {
 }
 
 main {
-    margin-top: 104px;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
 }
 
 .section1 {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .word {
@@ -69,7 +67,7 @@ main {
 }
 
 .section1 .img-main img {
-    width: 90%;
+    width: 580px;
 }
 
 .section1 ul {
@@ -90,19 +88,8 @@ main {
     margin: 0px 3px;
 }
 
-.section1 .contatos ul li a {
-    /* animation:
-     contato 1.5s ease-in-out; */
-}
-
-/* @keyframes contato {
-    50% {
-        transform: translateY(-10%);
-    }
-} */
-
 .mystack {
-    line-height: 0.5;
+    line-height: 1.5rem;
 }
 
 .apresentacao {
@@ -111,3 +98,69 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.section2 {
+    margin-top: 15rem;
+
+    background-color: #405ABA;
+
+    padding-top:9rem;
+    padding-bottom: 10rem;
+
+    position: relative;
+    width: 100%;
+}
+
+.minha-foto {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    color: #D8DEF2;
+}
+
+.minha-foto img{
+
+    width: 20rem;
+    height: 20rem;
+
+    /* width: 330px;
+    height: 330px; */
+
+    border-radius: 90%;
+
+    object-fit: cover;
+}
+
+.minha-foto h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.minha-foto p {
+    font-size: 1.2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.nova-div {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 70%;
+    background-color: #ffffff;
+    color: #000000;
+
+    border: 2px #405ABA solid;
+    border-radius: 15px;
+}
+
+.nova-section {
+    margin-top: 20rem;
+
+    background-color: #f2f2f2;
+}
+
