@@ -14,6 +14,8 @@
 header {
     position: fixed;
     top: 0;
+
+    z-index: 999;
 }
 
 header nav{
@@ -21,7 +23,7 @@ header nav{
     align-items: center;
     justify-content: space-between;
 
-    padding: 20px;
+    padding: 8px;
 }
 
 header nav a {
@@ -36,6 +38,14 @@ header nav ul{
 
 header nav li {
     margin: 0px 20px;
+}
+
+.contact {
+    border: 2px #405ABA solid;
+    border-radius: 20px;
+
+    color: #405ABA;
+    padding: 8px 20px;
 }
 
 main {
@@ -120,7 +130,7 @@ main {
     color: #D8DEF2;
 }
 
-.minha-foto img{
+.minha-foto .minha-imagem{
 
     width: 20rem;
     height: 20rem;
@@ -138,6 +148,11 @@ main {
     font-weight: bold;
 }
 
+.minha-descricao {
+    /* border: 1px red solid; */
+    width: 85%;
+}
+
 .minha-foto p {
     font-size: 1.2rem;
     padding-top: 0.75rem;
@@ -150,15 +165,25 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     height: auto;
-    width: 70%;
+    width: 50rem;
     background-color: #ffffff;
-    color: #000000;
+    color: #141C3A;
 
     border: 2px #405ABA solid;
-    border-radius: 15px;
+    border-radius: 48px;
 }
 
-.nova-section {
+.atualmente h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.fazendo-atualmente p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section3 {
     margin-top: 20rem;
 
     background-color: #f2f2f2;
