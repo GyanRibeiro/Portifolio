@@ -30,3 +30,13 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
+
+## 📩 Contato
+
+gyanribeiro29@gmail.com
+
+[🪪 Linkedin](https://www.linkedin.com/in/gyanribeiro/)
+
+## 📝 Licença
+
+Copyright © 2023 Gyan Ribeiro
