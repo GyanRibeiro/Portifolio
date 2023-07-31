@@ -33,7 +33,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 📩 Contato
 
-gyanribeiro29@gmail.com [🪪 Linkedin](https://www.linkedin.com/in/gyanribeiro/)
+gyanribeiro29@gmail.com // [Linkedin](https://www.linkedin.com/in/gyanribeiro/)
 
 ## 📝 Licença
 
