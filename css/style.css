@@ -184,8 +184,33 @@ main {
 }
 
 .section3 {
-    margin-top: 20rem;
-
-    background-color: #f2f2f2;
+    margin-top: 28rem;
 }
 
+.section3 h1 {
+    font-size: 2.20rem;
+    font-weight: bold;
+}
+
+.container-habilidades-geral {
+    margin-top: 5rem;
+}
+
+.container-habilidades {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-habilidades img {
+    margin: 0px 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.descri-linguagem p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+
+    border-bottom: 2px #405ABA solid;
+}
