@@ -71,8 +71,11 @@ main {
     padding: 5px 10px;
 
     border-radius: 20px;
-    border: 1px #1C2E35 solid;
+    border: 2px #405ABA solid;
 
+    font-weight: 600;
+
+    color: #405ABA;
     background-color: #FFFFFF;
 }
 
@@ -186,7 +189,7 @@ main {
     margin-top: 28rem;
 }
 
-.section3 h1 {
+.section3 h1, .section4 h1 {
     font-size: 2.21rem;
     font-weight: bold;
 }
@@ -212,4 +215,8 @@ main {
     margin-top: 2rem;
 
     border-bottom: 2px #405ABA solid;
+}
+
+.section4 {
+    margin-top: 10rem;
 }
