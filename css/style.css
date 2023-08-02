@@ -16,6 +16,8 @@ header {
     top: 0;
 
     z-index: 999;
+
+    background-color: #FFFFFF;
 }
 
 header nav{
@@ -46,6 +48,13 @@ header nav li {
 
     color: #405ABA;
     padding: 8px 20px;
+}
+
+.contact:hover {
+    background-color: #405ABA;
+    color: #FFFFFF;
+
+    transition: 0.3s all;
 }
 
 main {
@@ -79,6 +88,13 @@ main {
     background-color: #FFFFFF;
 }
 
+.section1 button:hover {
+    background-color: #405ABA;
+    color: #FFFFFF;
+
+    transition: 0.3s all;
+}
+
 .section1 .img-main img {
     width: 580px;
 }
@@ -99,6 +115,11 @@ main {
 
 .section1 .contatos ul li {
     margin: 0px 3px;
+}
+
+.section1 .contatos ul li a img:hover {
+    transform: scale(1.05);
+    transition: 0.3s all;
 }
 
 .mystack {
@@ -208,6 +229,12 @@ main {
 .container-habilidades img {
     margin: 0px 1rem;
     margin-bottom: 1.6rem;
+}
+
+.container-habilidades img:hover {
+    transform: scale(1.15);
+    transition: 0.3s all;
+    cursor: pointer;
 }
 
 .descri-linguagem p{
