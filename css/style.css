@@ -247,3 +247,51 @@ main {
 .section4 {
     margin-top: 10rem;
 }
+
+.section4 h1 {
+    font-size: 45px;
+}
+
+.section4 h6 {
+    color: #555555;
+}
+
+.container-projetos div{
+    width: 35rem;
+    height: auto;
+
+    border-radius: 15px;
+}
+
+.container-projetos div img {
+    border-radius: 15px;
+}
+
+.container-projetos div h2 {
+    font-weight: bold;
+    color: #333333;
+}
+
+.container-projetos div p {
+    word-spacing: 4px;
+    line-height: 1.8;
+}
+
+.container-projetos div button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+
+    color: #FFFFFF;
+    background-color: #000000;
+
+    font-weight: 500;
+}
+
+.container-projetos div button:hover {
+    background-color: #222222;
+}
+
+.section5 div .projetos {
+    margin-top: 15rem;
+}
