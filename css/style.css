@@ -256,7 +256,7 @@ main {
     font-size: 45px;
 }
 
-.section4 h6 {
+.section4 h6, .section5 h6 {
     color: #555555;
 }
 
@@ -296,6 +296,15 @@ main {
     background-color: #222222;
 }
 
-.section5 div .projetos {
+.section4-2 div .projetos {
     margin-top: 15rem;
+}
+
+.section5 {
+    margin-top: 10rem;
+}
+
+.section5 h1 {
+    font-weight: bold;
+    font-size: 45px;
 }
