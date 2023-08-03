@@ -42,6 +42,10 @@ header nav li {
     margin: 0px 20px;
 }
 
+.navlist ul li a:hover {
+    color: #405ABA;
+}
+
 .contact {
     border: 2px #405ABA solid;
     border-radius: 20px;
@@ -307,4 +311,18 @@ main {
 .section5 h1 {
     font-weight: bold;
     font-size: 45px;
+}
+
+.section5 article h2 {
+    font-weight: 600;
+}
+
+.section5 article p {
+    color: #555555;
+}
+
+.barra-lateral-perfil {
+    width: 0.1rem;
+    height: 100%;
+    background-color: #D8DEF2;
 }
