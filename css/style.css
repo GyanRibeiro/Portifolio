@@ -133,6 +133,10 @@ main {
     align-items: center;
 }
 
+.imagen2 {
+    display: none;
+}
+
 .section2 {
     margin-top: 15rem;
 
