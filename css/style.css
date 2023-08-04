@@ -218,8 +218,8 @@ main {
     margin-top: 28rem;
 }
 
-.section3 h1, .section4 h1 {
-    font-size: 2.21rem;
+.section3 h1, .section4 h1, .section5 h1, .section6 h1 {
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -252,15 +252,16 @@ main {
     border-bottom: 2px #405ABA solid;
 }
 
+.destaque-linguagens, .sinal-subtitulo {
+    color: #405ABA;
+    font-weight: bold;
+}
+
 .section4 {
     margin-top: 10rem;
 }
 
-.section4 h1 {
-    font-size: 45px;
-}
-
-.section4 h6, .section5 h6 {
+.section3 h6, .section4 h6, .section5 h6, .section6 h6 {
     color: #555555;
 }
 
@@ -304,13 +305,8 @@ main {
     margin-top: 15rem;
 }
 
-.section5 {
+.section5, .section6 {
     margin-top: 10rem;
-}
-
-.section5 h1 {
-    font-weight: bold;
-    font-size: 45px;
 }
 
 .section5 article h2 {
@@ -325,4 +321,60 @@ main {
     width: 0.1rem;
     height: 100%;
     background-color: #D8DEF2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+    font-weight: bold;
+
+    color: #405ABA;
+}
+
+form input {
+    width: 100%;
+    height: 2.5rem;
+
+    border: 1px #D8DEF2 solid;
+    border-radius: 5px;
+    outline: none;
+
+    padding: 8px;
+}
+
+form textarea {
+    width: 85%;
+
+    border: 1px #D8DEF2 solid;
+    outline: none;
+    resize: none;
+
+    padding: 8px;
+}
+
+form button {
+    width: 8rem;
+    padding: 5px 0px;
+
+    background-color: #FFFFFF;
+    color: #405ABA;
+    border: 2px #405ABA solid;
+
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #405ABA;
+    color: #FFFFFF;
+
+    transition: 0.3s all;
+}
+
+form div .aviso-email{
+    font-weight: bold;
 }
