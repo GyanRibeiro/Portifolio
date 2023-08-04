@@ -1,6 +1,6 @@
 ﻿# 🚀 [Meu Portifólio](https://gyanr.netlify.app/)
 
-<h2 align="center">☕ Portifólio em Desenvolvimento</h2> <br>
+<h2 align="center">☕ Novo Portifólio em Desenvolvimento</h2> <br>
 
 > Novo Portifólio
 
