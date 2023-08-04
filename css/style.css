@@ -378,3 +378,30 @@ form button:hover {
 form div .aviso-email{
     font-weight: bold;
 }
+
+footer {
+    background-color: #405ABA;
+}
+
+footer h3 {
+    font-weight: 600;
+    color: #D8DEF2;
+}
+
+footer .icones-footer i{
+    font-size: 30px;
+    color: #D8DEF2;
+    margin: 0px 10px;
+}
+
+footer .icones-footer i:hover {
+    color: #ffffff;
+}
+
+footer div p {
+    color: #D8DEF2;
+}
+
+.creditos {
+    width: 100%;
+}
