@@ -4,7 +4,17 @@
 
 > Novo Portifólio
 
-## 💻 Desenvolvimento do Projeto
+## 💻 Desenvolvimento do Portifólio
+
+Já feito:
+
+- [x] Criar Estrutura do HTML e CSS.
+- [x] Adicionar Bootstrap no Projeto
+- [x] Disponibilizar currículo para download
+
+🚧 Próximo passo:
+
+- [ ] Responsividade.
 
 ## 🧑🏻‍💻 Tecnologias:
 
