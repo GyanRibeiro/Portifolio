@@ -1,10 +1,20 @@
-﻿# 🚀 [Meu Portifólio](https://gyanr.netlify.app/)
+﻿# 🚀 [Meu Portifólio](https://gyanribeiro.netlify.app/)
 
-<h2 align="center">☕ Portifólio em Desenvolvimento</h2> <br>
+<h2 align="center">☕ Novo Portifólio em Desenvolvimento</h2> <br>
 
 > Novo Portifólio
 
-## 💻 Desenvolvimento do Projeto
+## 💻 Desenvolvimento do Portifólio
+
+Já feito:
+
+- [x] Criar Estrutura do HTML e CSS.
+- [x] Adicionar Bootstrap no Projeto
+- [x] Disponibilizar currículo para download
+
+🚧 Próximo passo:
+
+- [ ] Responsividade.
 
 ## 🧑🏻‍💻 Tecnologias:
 
