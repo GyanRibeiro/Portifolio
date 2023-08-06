@@ -1,0 +1,73 @@
+@media (max-width: 1200px) {
+    .ttexto-skills, .text-projetos, .section5, .Texto-contato {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1161px) {
+    .section4-2 div .projetos {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header nav ul {
+        display: none;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+    .section3 h1, .section4 h1, .section5 h1, .section6 h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 110px) and (max-width: 400px) {
+
+    .section3 h1,.section4 h1, .section5 h1, .section6 h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .section3 h6, .section4 h1, .section5 h6, .section6 h6 {
+        text-align: center;
+    }
+
+    .direitos p {
+        font-size: 12px;
+    }
+
+    .nome-menu {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        padding: 0.1rem 0.3rem;
+    }
+
+    .menu-hamburguer img {
+        padding-left: 0rem;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+    hr {
+        display: block;
+    }
+
+    .aviso-email {
+        display: none;
+    }
+
+    .container-buttom {
+        justify-content: center;
+    }
+
+    form textarea {
+        width: 100%;
+    }
+
+    .descri-linguagem p {
+        font-size: 0.8rem;
+    }
+}

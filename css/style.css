@@ -34,6 +34,19 @@ header nav a {
     text-decoration: none;
 }
 
+.menu-hamburguer {
+    color: black;
+    font-weight: 500;
+
+    border: 2px #405ABA solid;
+    border-radius: 5px;
+    padding: 0px 1rem;
+}
+
+.menu-hamburguer img {
+    padding-left: 0.3rem;
+}
+
 header nav ul{
     display: flex;
 }
@@ -51,7 +64,7 @@ header nav li {
     border-radius: 20px;
 
     color: #405ABA;
-    padding: 8px 20px;
+    padding: 8px 15px;
 }
 
 .contact:hover {
@@ -214,10 +227,6 @@ main {
     padding-bottom: 0;
 }
 
-.section3 {
-    margin-top: 28rem;
-}
-
 .section3 h1, .section4 h1, .section5 h1, .section6 h1 {
     font-size: 45px;
     font-weight: bold;
@@ -246,7 +255,7 @@ main {
 }
 
 .descri-linguagem p{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     margin-top: 2rem;
 
     border-bottom: 2px #405ABA solid;
@@ -303,6 +312,19 @@ main {
 
 .section4-2 div .projetos {
     margin-top: 15rem;
+}
+
+.section3, .section5, .section6 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section3 {
+    margin-top: 28rem;
+}
+
+hr {
+    display: none;
 }
 
 .section5, .section6 {

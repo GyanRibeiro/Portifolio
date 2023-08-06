@@ -7,6 +7,7 @@
         <title>Gyan Ribeiro</title>
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="medias/medias.css">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -18,9 +19,15 @@
         <header class="col-12">
             <nav class="container navlist">
                 <a href=""><img src="imagens/logo-2-PhotoRoom.png-PhotoRoom.png" alt="Logo Gyan Ribeiro" width="230px"></a>
+                <a href=""><img src="imagens/Logo-sem-o-nome.png" alt="" width="60pxpx" class="d-none"></a>
+
+                <div class="d-block d-lg-none d-flex align-items-center menu-hamburguer">
+                    <span class="nome-menu">Menu</span>
+                    <img src="imagens/icons8-cardápio.svg" alt="">
+                </div>
                 <ul class="mt-4">
                     <li>
-                        <a href="/">HOME</a>
+                        <a href="/" class="">HOME</a>
                     </li>
                     
                     <li>
@@ -40,7 +47,7 @@
         </header>
 
         <main class="">
-            <section class="container section1">
+            <section class="container-fluid ps-5 pe-5 section1">
                 <div class="apresentacao">
                     
                     <div>
@@ -114,14 +121,14 @@
             </section>
 
             <section class="section3" id="tecnologias">
-                <div class="container ps-5">
+                <div class="ttexto-skills">
                     <h6>Tecnologias que utilizo <span class="sinal-subtitulo">!</span></h6>
                     <h1>Minhas habilidades</h1>
                 </div>
 
-                <div class="container container-habilidades-geral">
+                <div class="container-fluid container-habilidades-geral">
                     <div class="row">
-                        <div class="container-habilidades col-7">
+                        <div class="container-habilidades col-12 col-md-7 pe-4">
                             <img src="imagens/imagens-habilidades/icons8-html.svg" alt="icone HTML" width="100px">
                             <img src="imagens/imagens-habilidades/icons8-css.svg" alt="icone CSS" width="100px">
                             <img src="imagens/imagens-habilidades/Bootstrap_logo.svg" alt="icone bootstrap" width="95px">
@@ -141,7 +148,7 @@
                             <img src="imagens/imagens-habilidades/icons8-postgresql.svg" alt="icone postgresql" width="90px">
                         </div>
         
-                        <div class="col-5 descri-linguagem">
+                        <div class="col-12 col-md-5 descri-linguagem">
                             <h1 class="text-center">Clique em uma habilidade</h1>
                             <p class="text-center"> NÃO FUNCIONA MEU CHAPA, ESTÁ EM CONSTRUÇÃO!</p>
                         </div>
@@ -151,7 +158,7 @@
             </section>
 
             <section class="section4" id="projetos">
-                <div class="container ps-5">
+                <div class="text-projetos">
                     <h6>Confira minhas façanhas <span class="sinal-subtitulo">!</span></h6>
                     <h1>Meus Projetos</h1>
                 </div>
@@ -229,43 +236,51 @@
             </section>
 
             <section class="section5">
-                <div class="container ps-5">
+                <div class="container-fluid">
                     <div>
                         <h6>Meus outros fundamentos <span class="sinal-subtitulo">!</span></h6>
                         <h1>Perfil profissional</h1>
                     </div>
                     
                     <div class="row">
-                        <article class="mt-5 col-5">
+                        <article class="mt-5 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-5 d-block">
                             <img src="imagens/database.png" alt="icone estutura de dados" width="70px">
                             <h2 class="mt-3">Estrutura de Dados</h2>
                             <p>Familiarizado com conceitos fundamentais de estrutura de dados. Com conhecimentos básicos em listas, pilhas, filas e árvores.</p>
                         </article>
+                        
+                        <hr>
 
-                        <article class="mt-5 col-5">
+                        <article class="mt-5 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-5 d-block">
                             <img src="imagens/devices.png" alt="icone responsividade" width="70px">
                             <h2 class="mt-3">Responsividade</h2>
                             <p>Crio interfaces adaptáveis e visualmente atraentes para diferentes dispositivos, garantindo uma experiência consistente aos usuários.</p>
                         </article>
 
-                        <article class="mt-5 col-5">
+                        <hr>
+
+                        <article class="mt-5 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-5 d-block">
                             <img src="imagens/clean-code.png" alt="icone clean code" width="70px">
                             <h2 class="mt-3">Clean Code</h2>
                             <p>Buscando aprimorar meu conhecimento em escrever códigos mais legíveis e organizados para facilitar a manutenção e a colaboração em projetos.</p>
                         </article>
 
-                        <article class="mt-5 col-5">
+                        <hr>
+
+                        <article class="mt-5 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-5 d-block">
                             <img src="imagens/semantic-web.png" alt="icone semantica" width="70px">
                             <h2 class="mt-3">Semantica</h2>
                             <p>Buscando compreender e aplicar a semântica no desenvolvimento web para criar códigos mais significativos, acessíveis e amigáveis aos mecanismos de busca.</p>
                         </article>
+
+                        <hr>
                     </div>
                 </div>
             </section>
             
             <section class="section6" id="contato">
-                <div class="container ps-5">
-                    <div>
+                <div class="container-fluid">
+                    <div class="Texto-contato">
                         <h6>Eai, curtiu <span class="sinal-subtitulo">?</span></h6>
                         <h1>Entre em contato</h1>
                     </div>
@@ -285,7 +300,7 @@
                                 <label for="">Mensagem</label>
                                 <textarea name="" id="" cols="30" rows="10" placeholder="Mande sua mensagem"></textarea>
                                 
-                                <div class="d-flex align-items-end">
+                                <div class="d-flex align-items-end container-buttom">
                                     <button class="mt-4">Enviar <i class="bi bi-send"></i></button>
 
                                     <h6 class="ms-5 aviso-email">Ainda não está funcionando meu consagrado <span class="sinal-subtitulo">!</span></h6>
@@ -310,7 +325,7 @@
                 <a href=""><i class="bi bi-envelope-at"></i></a>
             </div>
 
-            <div class="mt-4 direitos">
+            <div class="mt-4 direitos d-flex">
                 <p>© 2023 Gyan Ribeiro. Todos os direitos reservados.</p>
             </div>
         </footer>
