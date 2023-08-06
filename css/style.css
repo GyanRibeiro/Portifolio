@@ -314,9 +314,13 @@ main {
     margin-top: 15rem;
 }
 
-.section3, .section5, .section6 {
+.section3, .section4, .section5, .section6 {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.section4 {
+    margin-top: 10rem;
 }
 
 .section3 {
