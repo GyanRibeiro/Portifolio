@@ -70,9 +70,7 @@
     .section2 {
         margin-top: 0rem;
     }
-}
 
-@media (max-width: 992px) {
     .word {
         font-size: 14px;
     }
@@ -82,12 +80,42 @@
     }
 }
 
+@media (max-width: 823px) {
+    .nova-div {
+        width: 98%;
+    }
+
+    .atualmente img {
+        width: 70px;
+    }
+
+    .atualmente h2 {
+        font-size: 1.6rem;
+    }
+
+    .fazendo-atualmente p {
+        font-size: 1.05rem;
+    }
+}
+
 @media (max-width: 569px) {
     .word {
         font-size: 12px;
     }
     .section1 .titulo-section1 h1 {
         font-size: 2.6rem;
+    }
+
+    .atualmente h2 {
+        font-size: 1.5rem;
+    }
+
+    .fazendo-atualmente p {
+        font-size: 1.0rem;
+    }
+
+    .container-projetos div {
+        width: 100%;
     }
 }
 
@@ -117,6 +145,14 @@
         align-items: center;
         justify-content: center;
     }
+
+    .container-projetos div h2 {
+        font-size: 1.5rem;
+    }
+
+    .container-projetos div p {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 501px) {
@@ -126,6 +162,26 @@
 
     .section1 .img-main img {
         width: 300px;
+    }
+
+    .fazendo-atualmente p {
+        font-size: 0.8rem;
+    }
+
+    .atualmente img {
+        width: 60px;
+    }
+
+    .atualmente h2 {
+        font-size: 1.4rem;
+    }
+
+    .container-projetos div h2 {
+        font-size: 1.4rem;
+    }
+
+    .container-projetos div p {
+        font-size: 0.8rem;
     }
 }
 
@@ -137,7 +193,7 @@
 
 @media (min-width: 400px) and (max-width: 575px) {
     .container-habilidades {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .container-habilidades img {
@@ -205,5 +261,9 @@
 
     .container-habilidades img {
         width: 70px;
+    }
+
+    .fazendo-atualmente p {
+        font-size: 0.8rem;
     }
 }
