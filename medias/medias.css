@@ -32,6 +32,7 @@
     .section1 .img-main img {
         width: 450px;
     }
+
 }
 
 @media (max-width: 1022px) {
@@ -78,6 +79,19 @@
     .section1 h1 {
         font-size: 2.8rem;
     }
+
+    .minha-descricao {
+        width: 50rem;
+    }
+
+    .minha-foto .minha-imagem {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    .minha-foto .minha-descricao p {
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 823px) {
@@ -95,6 +109,42 @@
 
     .fazendo-atualmente p {
         font-size: 1.05rem;
+    }
+
+    .minha-descricao {
+        width: 40rem;
+    }
+
+    .minha-foto .minha-imagem {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .minha-foto .minha-descricao p {
+        font-size: 1.0rem;
+    }
+
+    .minha-foto .meu-nome h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 645px) {
+    .minha-descricao {
+        width: 30rem;
+    }
+
+    .minha-foto .minha-imagem {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .minha-foto .minha-descricao p {
+        font-size: 0.9rem;
+    }
+
+    .minha-foto .meu-nome h2 {
+        font-size: 1.2rem;
     }
 }
 
@@ -183,6 +233,23 @@
     .container-projetos div p {
         font-size: 0.8rem;
     }
+
+    .minha-descricao {
+        width: 22rem;
+    }
+
+    .minha-foto .minha-imagem {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .minha-foto .minha-descricao p {
+        font-size: 0.8rem;
+    }
+
+    .minha-foto .meu-nome h2 {
+        font-size: 1.0rem;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
@@ -265,5 +332,30 @@
 
     .fazendo-atualmente p {
         font-size: 0.8rem;
+    }
+
+    .minha-descricao {
+        width: 18rem;
+    }
+
+    .minha-foto .minha-imagem {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .minha-foto .minha-descricao p {
+        font-size: 0.7rem;
+    }
+
+    .minha-foto .meu-nome h2 {
+        font-size: 0.8rem;
+    }
+
+    .container-projetos div button {
+        padding: 8px 15px;
+        width: 8.4rem;
+        font-size: 14px;
+    
+        font-weight: 500;
     }
 }
