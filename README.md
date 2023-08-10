@@ -11,10 +11,11 @@ Já feito:
 - [x] Criar Estrutura do HTML e CSS.
 - [x] Adicionar Bootstrap no Projeto
 - [x] Disponibilizar currículo para download
+- [x] Responsividade.
 
 🚧 Próximo passo:
 
-- [ ] Responsividade.
+- [ ] adicionar funcionalidade ao clicar em uma linguagem
 
 ## 🧑🏻‍💻 Tecnologias:
 
