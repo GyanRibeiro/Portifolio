@@ -15,7 +15,7 @@ Já feito:
 
 🚧 Próximo passo:
 
-- [ ] adicionar funcionalidade ao clicar em uma linguagem
+- [ ] Adicionar umafuncionalidade ao clicar em uma linguagem
 
 ## 🧑🏻‍💻 Tecnologias:
 
