@@ -254,9 +254,9 @@ main {
 }
 
 .descri-linguagem p{
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     margin-top: 2rem;
-
+    padding-bottom: 0.5rem;
     border-bottom: 2px #405ABA solid;
 }
 
