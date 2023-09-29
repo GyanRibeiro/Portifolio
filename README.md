@@ -12,10 +12,11 @@ Já feito:
 - [x] Adicionar Bootstrap no Projeto
 - [x] Disponibilizar currículo para download
 - [x] Responsividade.
+- [x] Adicionar interação de clique para exibir informações ao clicar em uma linguagem
 
 🚧 Próximo passo:
 
-- [ ] Adicionar uma funcionalidade ao clicar em uma linguagem
+- [ ] xxxxxxxxxxxx
 
 ## 🧑🏻‍💻 Tecnologias:
 
