@@ -80,3 +80,21 @@ document.addEventListener('DOMContentLoaded', () => { // Espera o DOM estar pron
         });
     });
 });
+
+window.addEventListener('scroll', () => {
+  const arrowUp = document.getElementById('arrowUp');
+  const scrollY = window.scrollY;
+
+  if (scrollY > 600) {
+    arrowUp.classList.add('visible');
+  } else {
+    arrowUp.classList.remove('visible');
+  }
+});
+
+document.getElementById('arrowUp').addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});

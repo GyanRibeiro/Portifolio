@@ -430,3 +430,23 @@ footer div p {
 .creditos {
     width: 100%;
 }
+
+.hidden {
+    display: none;
+}
+
+#arrowUp.visible {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#arrowUp.visible i {
+    font-size: 2rem;
+    color: #32CD32;
+    transition: opacity 1s;
+}
