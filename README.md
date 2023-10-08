@@ -13,6 +13,7 @@ Já feito:
 - [x] Disponibilizar currículo para download
 - [x] Responsividade.
 - [x] Adicionar interação de clique para exibir informações ao clicar em uma linguagem
+- [x] Implementar funcionalidade do menu hamburguer
 
 🚧 Próximo passo:
 
