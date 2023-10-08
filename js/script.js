@@ -1,3 +1,19 @@
+const menuHamburguer = document.querySelector('.menu-hamburguer');
+const menu = document.querySelector('header nav ul');
+
+menuHamburguer.addEventListener('click', () => {
+  menu.classList.toggle('active')
+  menu.style.display = 'block'
+  console.log(1)
+})
+
+const menuItems = document.querySelectorAll("header nav ul li a");
+menuItems.forEach(item => {
+    item.addEventListener("click", () => {
+        menu.classList.remove("active");
+    });
+});
+
 let skills = [
     {
       "nome": "HTML",

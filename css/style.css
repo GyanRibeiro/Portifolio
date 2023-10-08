@@ -41,6 +41,8 @@ header nav a {
     border: 2px #405ABA solid;
     border-radius: 5px;
     padding: 0px 1rem;
+
+    cursor: pointer;
 }
 
 .menu-hamburguer img {
