@@ -14,13 +14,13 @@
     }
 }
 
-@media (max-width: 1161px) {
+@media (max-width: 1161px) and (max-width: 1999px) {
     .section4-2 div .projetos {
         margin-top: 3rem;
     }
 }
 
-@media (max-width: 1119px) {
+@media (max-width: 1119px) and (max-width: 1960px){
     .word {
         font-size: 14px;
     }
@@ -35,13 +35,13 @@
 
 }
 
-@media (max-width: 1022px) {
+@media (max-width: 1022px) and (max-width: 1118px){
     .section1 .img-main img {
         width: 410px;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (max-width: 1021px){
 
     body {
         overflow-x: hidden;
@@ -51,12 +51,70 @@
         background-color: #f3f0f0;
     }
 
+    #checkbox2 {
+        display: none;
+      }
+      
+      .toggle2 {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        transition-duration: .5s;
+      }
+      
+      .bars {
+        width: 100%;
+        height: 6px;
+        background-color: rgb(92, 176, 255);
+        border-radius: 6px;
+      }
+      
+      #bar5 {
+        transition-duration: .8s;
+      }
+      
+      #bar4,#bar6 {
+        width: 80%;
+      }
+      
+      #checkbox2:checked + .toggle2 .bars {
+        position: absolute;
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 #bar5 {
+        transform: scaleX(0);
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 #bar4 {
+        width: 100%;
+        transform: rotate(45deg);
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 #bar6 {
+        width: 100%;
+        transform: rotate(-45deg);
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 {
+        transition-duration: .5s;
+        transform: rotate(180deg);
+      }
+
     header nav ul {
         position: absolute;
         top: 8vh;
         right: 0;
-        display: none;
-        flex-direction: column;
+        display: block;
         text-align: center;
         justify-content: space-around;
 
@@ -125,7 +183,7 @@
     }
 }
 
-@media (max-width: 823px) {
+@media (max-width: 823px) and (max-width: 991px){
     .nova-div {
         width: 98%;
     }
@@ -346,6 +404,13 @@
     header nav ul li {
         margin: 5rem 1vw;
     }
+
+    .bars {
+        width: 100%;
+        height: 6px;
+        background-color: rgb(92, 176, 255);
+        border-radius: 6px;
+      }
 
     .section3 h1,.section4 h1, .section5 h1, .section6 h1 {
         font-size: 28px;

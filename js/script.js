@@ -1,9 +1,8 @@
-const menuHamburguer = document.querySelector('.menu-hamburguer');
+const menuHamburguer = document.querySelector('#checkbox2');
 const menu = document.querySelector('header nav ul');
 
 menuHamburguer.addEventListener('click', () => {
   menu.classList.toggle('active')
-  menu.style.display = 'block'
   console.log(1)
 })
 

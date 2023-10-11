@@ -36,19 +36,8 @@ header nav a {
     text-decoration: none;
 }
 
-.menu-hamburguer {
-    color: black;
-    font-weight: 500;
-
-    border: 2px #405ABA solid;
-    border-radius: 5px;
-    padding: 0px 1rem;
-
-    cursor: pointer;
-}
-
-.menu-hamburguer img {
-    padding-left: 0.3rem;
+#checkbox2 {
+    display: none;
 }
 
 header nav ul{
