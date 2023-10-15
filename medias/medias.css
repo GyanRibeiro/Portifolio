@@ -262,6 +262,10 @@
     .container-projetos div {
         width: 100%;
     }
+
+    .preview-project {
+        height: auto !important;
+    }
 }
 
 @media (max-width: 535px) {

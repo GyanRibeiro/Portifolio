@@ -311,6 +311,18 @@ main {
     margin: 0 auto;
 }
 
+.preview-project {
+    height: 256px !important;
+}
+
+.preview-project img {
+    height: 100%;
+}
+
+.preview-project img {
+    object-fit: cover;
+}
+
 .section4 {
     margin-top: 10rem;
 }
