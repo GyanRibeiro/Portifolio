@@ -17,7 +17,7 @@ Já feito:
 
 🚧 Próximo passo:
 
-- [ ] xxxxxxxxxxxx
+- [ ] Utiizar o framework Angular para estruturar o projeto
 
 ## 🧑🏻‍💻 Tecnologias:
 
