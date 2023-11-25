@@ -2,7 +2,7 @@
 
 <h2 align="center">☕ Novo Portifólio em Desenvolvimento</h2> <br>
 
-> Novo Portifólio
+> Portifólio
 
 ## 💻 Desenvolvimento do Portifólio
 
