@@ -309,7 +309,6 @@ main {
 .section3, .text-projetos, .section5, .section6, .section4 {
     max-width: 1400px;
     margin: 0 auto;
-    border: solid 1px red;
 }
 
 .preview-project {
